@@ -1,0 +1,137 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .headerManu{
+        display: none;
+    }
+    .aboutContentTitle {
+        margin-left: 5px;
+    }
+    .aboutContentTitle button {
+        font-size: 16px;
+        padding: 7px 10px;
+    }
+    .ServiceBox {
+        margin-top: 20px;
+    }
+    .skillContentTitle {
+        margin-bottom: 50px;
+    }
+    .teamBox {
+        margin-top: 20px;
+    }
+    .contactForm {
+        margin-top: 30px;
+    }
+    .mobileMenu{
+        display: block;
+    }
+    .headerLogo {
+        width: 90%;
+        float: left;
+    }
+    
+    .mobileMenu {
+        width: 10%;
+        float: right;
+    }
+    .sliderTitle h1 {
+        font-size: 45px !important;
+        color: #ff0000c7 !important;
+    }
+    
+    .sliderTitle h2 {
+        font-size: 25px !important;
+        color: #ff0000c7 !important;
+    }
+    
+    .sliderTitle h3 {
+        color: #ff0000c7 !important;
+    }
+    
+    .sliderTitle button {
+        width: 130px;
+    }
+    .sliderTitle button:hover{
+        color: red;
+        font-weight: 600;
+    }
+    #main-menu {
+        background: #262525e8;
+        padding: 16px 20px;
+        border-radius: 10px;
+    }
+    
+    #main-menu a {
+        font-size: 20px;
+        background: red;
+        margin-right: 22px;
+        margin-top: 20px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+    .singel-project {
+        margin-top: 35px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .headerManu{
+        display: none;
+    }
+    .mobileMenu{
+        display: block;
+    }
+    .ServiceBox {
+        margin-top: 20px;
+    }
+    .skillContentTitle {
+        margin-bottom: 50px;
+    }
+    .teamBox {
+        margin-top: 20px;
+    }
+    .headerLogo {
+        width: 90%;
+        float: left;
+    }
+    
+    .mobileMenu {
+        width: 10%;
+        float: right;
+    }
+    #main-menu {
+        background: #262525e8;
+        padding: 16px 20px;
+        border-radius: 10px;
+    }
+    
+    #main-menu a {
+        font-size: 20px;
+        background: red;
+        margin-right: 22px;
+        margin-top: 20px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+    .singel-project {
+        margin-top: 35px;
+        padding: 10px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .headerManu ul li a {
+        padding: 11px 8px;
+        font-size: 16px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
