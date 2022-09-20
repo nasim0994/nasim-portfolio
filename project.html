@@ -1,380 +1,525 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NJR - ALL PROJECT</title>
 
-    
-    <link rel="shortcut icon" href="img/nnnnnnnnnnn-01.png" type="image/x-icon">
-<!--Bootstrap Link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<!--Font Awesome Link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-<!--project CSS Link-->
-<link rel="stylesheet" href="css/project.css">
-<!--Responsive CSS Link-->
-    <link rel="stylesheet" href="css/respon.css">
-<!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
- 
-</head>
-<body>
-    
+    <link
+      rel="shortcut icon"
+      href="img/nnnnnnnnnnn-01.png"
+      type="image/x-icon"
+    />
+    <!--Bootstrap Link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--Font Awesome Link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!--project CSS Link-->
+    <link rel="stylesheet" href="css/project.css" />
+    <!--Responsive CSS Link-->
+    <link rel="stylesheet" href="css/respon.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
     <section class="headerWrap" id="header-Area">
       <div class="container">
         <div class="headerArea">
-            <div class="row">
-                
-              <div class="col-md-2">
-                <div class="headerLogo">
-                    <a href="index.html"><h2>Nas<span>im.</span></h2></a>
-                </div>
-                <div class="mobileMenu" id="mobile_menu" onclick="showHide()">
-                    <i class="fas fa-bars"></i>
-                </div>
+          <div class="row">
+            <div class="col-md-2">
+              <div class="headerLogo">
+                <a href="index.html"
+                  ><h2>Nas<span>im.</span></h2></a
+                >
               </div>
-
-                <div class="col-md-10">
-
-                  <div class="headerManu" id="menu">
-                      <ul  id="main-menu">
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="index.html#aboutArea">About</a></li>
-                          <li><a href="index.html#services">Services</a></li>
-                          <li><a href="index.html#skills">Skills</a></li>
-                          <li><a class="active" href="project.html">Project</a></li>
-                          <li><a href="index.html#teams">Teams</a></li>
-                          <li><a href="index.html#contact">Contact</a></li>
-                      </ul>
-                  </div>
-                        
-                </div>
+              <div class="mobileMenu" id="mobile_menu" onclick="showHide()">
+                <i class="fas fa-bars"></i>
+              </div>
             </div>
+
+            <div class="col-md-10">
+              <div class="headerManu" id="menu">
+                <ul id="main-menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.html#aboutArea">About</a></li>
+                  <li><a href="index.html#services">Services</a></li>
+                  <li><a href="index.html#skills">Skills</a></li>
+                  <li><a class="active" href="project.html">Project</a></li>
+                  <li><a href="index.html#teams">Teams</a></li>
+                  <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-<!--landing page project-->
+    <!--------------------landing page project---------------->
     <section class="project-content">
       <div class="full-website">
-          <div class="row">
-              <div class="col-md-12">
-                  <h2 class="project-title">Landing Page</h2>
-              </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="project-title">Landing Page</h2>
           </div>
+        </div>
         <div class="project-list">
-            <div class="row">
-              <div class="col-md-3">
-                            <div class="singel-project">
-                                <div class="card-img">
-                                    <!-- Swiper --> <!--card 1 njr protfolio-->
-                                    <div class="swiper mySwiper">
-                                      <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                          <img src="img/1.png" alt="">
-                                        </div>
-                                        <div class="swiper-slide">
-                                          <img src="img/2.png" alt="">
-                                        </div>
-                                        <div class="swiper-slide">
-                                          <img src="img/3.png" alt="">
-                                        </div>
-                                      </div>
-                                      <div class="swiper-button-next"></div>
-                                      <div class="swiper-button-prev"></div>
-                                      <div class="swiper-pagination"></div>
-                                    </div>
-                                  </div>
-                                <div class="card-contect">
-                                    <h2>HTML & CSS Landing Page</h2>
-                                    <p>by Nasim Uddin</p>
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <h6>$0</h6>
-                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <button class="code"><a href="https://github.com/nasim0994/njr-portfolio" target="blank">Code</a></button>
-                                            <button class="preview"><a href="https://nasim0994.github.io/njr-portfolio/" target="blank">Preview</a></button>
-                                          </div>
-                                    </div>
-                                </div>
-                            </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper -->
+                  <!--card 1 njr protfolio-->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/1.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/2.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/3.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-contect">
+                  <h2>HTML & CSS Landing Page</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
+                    </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/njr-portfolio"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://nasim0994.github.io/njr-portfolio/"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-3">
-                            <div class="singel-project">
-                              <div class="card-img">
-                                <!-- Swiper --> <!--card 2 mithun protfolio-->
-                                <div class="swiper mySwiper">
-                                  <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                      <img src="img/p1.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p1-2.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p1-3.png" alt="">
-                                    </div>
-                                  </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
-                                  <div class="swiper-pagination"></div>
-                                </div>
-                              </div>
-                                <div class="card-contect">
-                                    <h2>HTML & CSS Landing Page</h2>
-                                    <p>by Nasim Uddin</p>
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <h6>$0</h6>
-                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <button class="code"><a href="https://github.com/nasim0994/freelancermithunhomepage.github.io" target="blank">Code</a></button>
-                                            <button class="preview"><a href="https://mithun-ahmed.github.io/freelancermithun/index.html" target="blank">Preview</a></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            </div>
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper -->
+                  <!--card 2 mithun protfolio-->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/p1.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/p1-2.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/p1-3.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-contect">
+                  <h2>HTML & CSS Landing Page</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
+                    </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/freelancermithunhomepage.github.io"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://mithun-ahmed.github.io/freelancermithun/index.html"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-3">
-                            <div class="singel-project">
-                              <div class="card-img">
-                                <!-- Swiper --><!--card 3 -->
-                                <div class="swiper mySwiper">
-                                  <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                      <img src="img/p2.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p2-2.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p2-3.png" alt="">
-                                    </div>
-                                  </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
-                                  <div class="swiper-pagination"></div>
-                                </div>
-                              </div>
-                                <div class="card-contect">
-                                    <h2>HTML & CSS Landing Page</h2>
-                                    <p>by Nasim Uddin</p>
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <h6>$0</h6>
-                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <button class="code"><a href="https://github.com/nasim0994/frelancercontest2.github.io" target="blank">Code</a></button>
-                                            <button class="preview"><a href="https://nasim0994.github.io/frelancercontest2.github.io/" target="blank">Preview</a></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            </div>
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper --><!--card 3 -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/p2.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/p2-2.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/p2-3.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-contect">
+                  <h2>HTML & CSS Landing Page</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
+                    </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/frelancercontest2.github.io"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://nasim0994.github.io/frelancercontest2.github.io/"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-3">
-                            <div class="singel-project">
-                              <div class="card-img">
-                                <!-- Swiper --><!--card 4 panda E-->
-                                <div class="swiper mySwiper">
-                                  <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                      <img src="img/p3.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p3-1.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p3-3.png" alt="">
-                                    </div>
-                                  </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
-                                  <div class="swiper-pagination"></div>
-                                </div>
-                              </div>
-                                <div class="card-contect">
-                                    <h2>HTML & CSS Landing Page</h2>
-                                    <p>by Nasim Uddin</p>
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <h6>$0</h6>
-                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <button class="code"><a href="https://github.com/nasim0994/panda.github.io" target="blank">Code</a></button>
-                                            <button class="preview"><a href="https://nasim0994.github.io/panda.github.io/" target="blank">Preview</a></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            </div>
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper --><!--card 4 panda E-->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/p3.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/p3-1.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/p3-3.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-contect">
+                  <h2>HTML & CSS Landing Page</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
+                    </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/panda.github.io"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://nasim0994.github.io/panda.github.io/"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-<!--others project-->
+    <!------------------Hot Project-------------------->
     <section class="hot-project-content">
       <div class="full-website">
-          <div class="row">
-              <div class="col-md-12">
-                  <h2 class="project-title">Hot Project</h2>
-              </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="project-title">Hot Project</h2>
           </div>
+        </div>
         <div class="project-list">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="singel-project">
-                    <div class="card-img">
-                        <!-- Swiper --> <!--card 1 njr protfolio-->
-                        <div class="swiper mySwiper">
-                          <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                              <img src="img/1.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                              <img src="img/2.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                              <img src="img/3.png" alt="">
-                            </div>
-                          </div>
-                          <div class="swiper-button-next"></div>
-                          <div class="swiper-button-prev"></div>
-                          <div class="swiper-pagination"></div>
-                        </div>
+          <div class="row">
+            <!-- 1 -->
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/e-learning.png" alt="" />
                       </div>
-                        <div class="card-contect">
-                            <h2>HTML & CSS Landing Page</h2>
-                            <p>by Nasim Uddin</p>
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <h6>$0</h6>
-                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                                </div>
-                                <div class="col-md-7">
-                                    <button class="code"><a href="https://github.com/nasim0994/njr-portfolio" target="blank">Code</a></button>
-                                    <button class="preview"><a href="https://nasim0994.github.io/njr-portfolio/" target="blank">Preview</a></button>
-                                  </div>
-                            </div>
-                        </div>
+                      <div class="swiper-slide">
+                        <img src="img/e-learning-1.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/e-learning-2.png" alt="" />
+                      </div>
                     </div>
-              </div>
-              <div class="col-md-3">
-                            <div class="singel-project">
-                              <div class="card-img">
-                                <!-- Swiper --> <!--card 2 mithun protfolio-->
-                                <div class="swiper mySwiper">
-                                  <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                      <img src="img/p1.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p1-2.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p1-3.png" alt="">
-                                    </div>
-                                  </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
-                                  <div class="swiper-pagination"></div>
-                                </div>
-                              </div>
-                                <div class="card-contect">
-                                    <h2>HTML & CSS Landing Page</h2>
-                                    <p>by Nasim Uddin</p>
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <h6>$0</h6>
-                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <button class="code"><a href="https://github.com/nasim0994/freelancermithunhomepage.github.io" target="blank">Code</a></button>
-                                            <button class="preview"><a href="https://mithun-ahmed.github.io/freelancermithun/index.html" target="blank">Preview</a></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-              </div>
-              <div class="col-md-3">
-                            <div class="singel-project">
-                              <div class="card-img">
-                                <!-- Swiper --><!--card 3 -->
-                                <div class="swiper mySwiper">
-                                  <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                      <img src="img/p2.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p2-2.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p2-3.png" alt="">
-                                    </div>
-                                  </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
-                                  <div class="swiper-pagination"></div>
-                                </div>
-                              </div>
-                                <div class="card-contect">
-                                    <h2>HTML & CSS Landing Page</h2>
-                                    <p>by Nasim Uddin</p>
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <h6>$0</h6>
-                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <button class="code"><a href="https://github.com/nasim0994/frelancercontest2.github.io" target="blank">Code</a></button>
-                                            <button class="preview"><a href="https://nasim0994.github.io/frelancercontest2.github.io/" target="blank">Preview</a></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-              </div>
-              <div class="col-md-3">
-                <div class="singel-project">
-                  <div class="card-img">
-                     <!-- Swiper --><!--card 4 panda E-->
-                    <div class="swiper mySwiper">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <img src="img/p3.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                          <img src="img/p3-1.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                          <img src="img/p3-3.png" alt="">
-                        </div>
-                      </div>
-                      <div class="swiper-button-next"></div>
-                      <div class="swiper-button-prev"></div>
-                      <div class="swiper-pagination"></div>
-                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                   </div>
-                     <div class="card-contect">
-                        <h2>HTML & CSS Landing Page</h2>
-                        <p>by Nasim Uddin</p>
-                        <div class="row">
-                            <div class="col-md-5">
-                                <h6>$0</h6>
-                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                            </div>
-                            <div class="col-md-7">
-                                <button class="code"><a href="https://github.com/nasim0994/panda.github.io" target="blank">Code</a></button>
-                                <button class="preview"><a href="https://nasim0994.github.io/panda.github.io/" target="blank">Preview</a></button>
-                            </div>
-                        </div>
+                </div>
+                <div class="card-contect">
+                  <h2>It Training Institute</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
                     </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/e-learning"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://nasim0994.github.io/e-learning/"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/news.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/news-1.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/news-2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-contect">
+                  <h2>News Site</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
+                    </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/news-bd"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://subtle-jelly-f45bd6.netlify.app/index.html"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/ecommerce.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/ecommerce-1.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/ecommerce-2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-contect">
+                  <h2>NR-Shopping</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
+                    </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/nr-shoping"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://comfy-treacle-b36353.netlify.app/"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper --><!--card 4 panda E-->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/p-fashion.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/p-fashion-1.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/p-fashion-2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-contect">
+                  <h2>Penguin-Fashion Ecommerce</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
+                    </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/Penguin-Fashion"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://nasim0994.github.io/Penguin-Fashion/"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -383,175 +528,247 @@
     <!--JS project-->
     <section class="js-project-content">
       <div class="full-website">
-          <div class="row">
-              <div class="col-md-12">
-                  <h2 class="project-title">JavaScript Project</h2>
-              </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="project-title">JavaScript Project</h2>
           </div>
+        </div>
         <div class="project-list">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="singel-project">
-                    <div class="card-img">
-                        <!-- Swiper --> <!--card 1 njr protfolio-->
-                        <div class="swiper mySwiper">
-                          <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                              <img src="img/1.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                              <img src="img/2.png" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                              <img src="img/3.png" alt="">
-                            </div>
-                          </div>
-                          <div class="swiper-button-next"></div>
-                          <div class="swiper-button-prev"></div>
-                          <div class="swiper-pagination"></div>
-                        </div>
+          <div class="row">
+            <!-- 1 -->
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/bank.png" alt="" />
                       </div>
-                        <div class="card-contect">
-                            <h2>HTML & CSS Landing Page</h2>
-                            <p>by Nasim Uddin</p>
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <h6>$0</h6>
-                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                                </div>
-                                <div class="col-md-7">
-                                    <button class="code"><a href="https://github.com/nasim0994/njr-portfolio" target="blank">Code</a></button>
-                                    <button class="preview"><a href="https://nasim0994.github.io/njr-portfolio/" target="blank">Preview</a></button>
-                                  </div>
-                            </div>
-                        </div>
+                      <div class="swiper-slide">
+                        <img src="img/bank-2.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/bank.png" alt="" />
+                      </div>
                     </div>
-              </div>
-              <div class="col-md-3">
-                            <div class="singel-project">
-                              <div class="card-img">
-                                <!-- Swiper --> <!--card 2 mithun protfolio-->
-                                <div class="swiper mySwiper">
-                                  <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                      <img src="img/p1.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p1-2.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p1-3.png" alt="">
-                                    </div>
-                                  </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
-                                  <div class="swiper-pagination"></div>
-                                </div>
-                              </div>
-                                <div class="card-contect">
-                                    <h2>HTML & CSS Landing Page</h2>
-                                    <p>by Nasim Uddin</p>
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <h6>$0</h6>
-                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <button class="code"><a href="https://github.com/nasim0994/freelancermithunhomepage.github.io" target="blank">Code</a></button>
-                                            <button class="preview"><a href="https://mithun-ahmed.github.io/freelancermithun/index.html" target="blank">Preview</a></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-              </div>
-              <div class="col-md-3">
-                            <div class="singel-project">
-                              <div class="card-img">
-                                <!-- Swiper --><!--card 3 -->
-                                <div class="swiper mySwiper">
-                                  <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                      <img src="img/p2.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p2-2.png" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                      <img src="img/p2-3.png" alt="">
-                                    </div>
-                                  </div>
-                                  <div class="swiper-button-next"></div>
-                                  <div class="swiper-button-prev"></div>
-                                  <div class="swiper-pagination"></div>
-                                </div>
-                              </div>
-                                <div class="card-contect">
-                                    <h2>HTML & CSS Landing Page</h2>
-                                    <p>by Nasim Uddin</p>
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <h6>$0</h6>
-                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <button class="code"><a href="https://github.com/nasim0994/frelancercontest2.github.io" target="blank">Code</a></button>
-                                            <button class="preview"><a href="https://nasim0994.github.io/frelancercontest2.github.io/" target="blank">Preview</a></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-              </div>
-              <div class="col-md-3">
-                <div class="singel-project">
-                  <div class="card-img">
-                     <!-- Swiper --><!--card 4 panda E-->
-                    <div class="swiper mySwiper">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <img src="img/p3.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                          <img src="img/p3-1.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                          <img src="img/p3-3.png" alt="">
-                        </div>
-                      </div>
-                      <div class="swiper-button-next"></div>
-                      <div class="swiper-button-prev"></div>
-                      <div class="swiper-pagination"></div>
-                     </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                   </div>
-                     <div class="card-contect">
-                        <h2>HTML & CSS Landing Page</h2>
-                        <p>by Nasim Uddin</p>
-                        <div class="row">
-                            <div class="col-md-5">
-                                <h6>$0</h6>
-                                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                            </div>
-                            <div class="col-md-7">
-                                <button class="code"><a href="https://github.com/nasim0994/panda.github.io" target="blank">Code</a></button>
-                                <button class="preview"><a href="https://nasim0994.github.io/panda.github.io/" target="blank">Preview</a></button>
-                            </div>
-                        </div>
+                </div>
+                <div class="card-contect">
+                  <h2>Bank Deposit & Withdraw</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
                     </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/baper-bank"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://nasim0994.github.io/baper-bank/"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/digital-clock.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/digital-clock.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/digital-clock.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-contect">
+                  <h2>Digital Clock</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
+                    </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/digitalclock"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://nasim0994.github.io/digitalclock/"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/pin.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/pin-1.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/pin-2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-contect">
+                  <h2>Pin Ganeretor</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
+                    </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/pingenerator"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://nasim0994.github.io/pingenerator/"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-md-3">
+              <div class="singel-project">
+                <div class="card-img">
+                  <!-- Swiper -->
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="img/text.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/text-1.png" alt="" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="img/text-2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-contect">
+                  <h2>Text Animation</h2>
+                  <p>by Nasim Uddin</p>
+                  <div class="row">
+                    <div class="col-md-5">
+                      <h6>$0</h6>
+                      <p>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                        ><i class="fas fa-star"></i>
+                      </p>
+                    </div>
+                    <div class="col-md-7">
+                      <button class="code">
+                        <a
+                          href="https://github.com/nasim0994/textanimation"
+                          target="blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="preview">
+                        <a
+                          href="https://nasim0994.github.io/textanimation/"
+                          target="blank"
+                          >Preview</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-<!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
-<!--my JS-->
+    <!--Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--my JS-->
     <script src="app.js"></script>
-<!-- Swiper JS -->
+    <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- Initialize Swiper -->
+    <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
         pagination: {
@@ -564,5 +781,5 @@
         },
       });
     </script>
-</body>
+  </body>
 </html>

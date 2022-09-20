@@ -1,875 +1,870 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.headerWrap{
-    width: 100%;
-    background-image: url(../img/banner1.jpg);
-    background-size: cover;
-    background-position: right;
-    min-height: 100vh;
-    overflow: hidden;
+.headerWrap {
+  width: 100%;
+  background-image: url(../img/banner1.jpg);
+  background-size: cover;
+  background-position: right;
+  min-height: 100vh;
+  overflow: hidden;
 }
-.headerArea{
-    margin-top: 25px;
-    overflow: hidden;
+.headerArea {
+  margin-top: 25px;
+  overflow: hidden;
 }
-.headerLogo{
-    width: 100%;
+.headerLogo {
+  width: 100%;
 }
-.headerLogo h2{
-    color: #fff;
-    font-size: 38px;
-    font-family: 'Ubuntu', sans-serif;
-    cursor: pointer;
+.headerLogo h2 {
+  color: #fff;
+  font-size: 38px;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
 }
-.headerLogo h2 span{
-    color: red;
+.headerLogo h2 span {
+  color: red;
 }
 
-.mobileMenu{
-    display: none;
-    cursor: pointer;
+.mobileMenu {
+  display: none;
+  cursor: pointer;
 }
 .mobileMenu i {
-    color: red;
-    font-size: 32px;
+  color: red;
+  font-size: 32px;
 }
 
-.headerManu{
-    width:100%;
+.headerManu {
+  width: 100%;
 }
-.headerManu ul{
-    margin: 0px;
-    float: right;
+.headerManu ul {
+  margin: 0px;
+  float: right;
 }
-.headerManu ul li{
-    float: left;
-    list-style: none;
+.headerManu ul li {
+  float: left;
+  list-style: none;
 }
-.headerManu ul li a{
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 11px 12px;
-    font-size: 20px;
-    font-weight: 600;
-    transition: .6s;
+.headerManu ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 11px 12px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.6s;
 }
-.headerManu .active{
-    color: #ff0000c7;
+.headerManu .active {
+  color: #ff0000c7;
 }
-.headerManu ul li a:hover{
-    color: #ff0000c7;
+.headerManu ul li a:hover {
+  color: #ff0000c7;
 }
 .sliderTitle {
-    width: 500px;
-    margin-top: 150px;
+  width: 500px;
+  margin-top: 150px;
 }
 
 .sliderTitle h3 {
-    color: #fff;
-    font-size: 24px;
-    font-family: 'Ubuntu', sans-serif;
-
+  color: #fff;
+  font-size: 24px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .sliderTitle h1 {
-    color: #fff;
-    font-size: 65px;
+  color: #fff;
+  font-size: 65px;
 }
 .sliderTitle h2 span {
-    color: red;
+  color: red;
 }
 
 .sliderTitle h2 {
-    color: #fff;
-    font-size: 30px;
+  color: #fff;
+  font-size: 30px;
 }
 
 .sliderTitle button {
-    margin-top: 24px;
-    width: 165px;
-    padding: 6px;
-    border-radius: 5px;
-    cursor: pointer;
-    background: #ff0000c7;
-    border: 2px solid #ff0000c7;
-    font-family: 'Ubuntu', sans-serif;
-    transition: .8s;
+  margin-top: 24px;
+  width: 165px;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #ff0000c7;
+  border: 2px solid #ff0000c7;
+  font-family: "Ubuntu", sans-serif;
+  transition: 0.8s;
 }
 .sliderTitle button a {
-    color: #fff;
-    font-size: 24px;
+  color: #fff;
+  font-size: 24px;
 }
-.sliderTitle button:hover{
-    background: none;
+.sliderTitle button:hover {
+  background: none;
 }
 section.aboutArea {
-    padding: 80px 0px;
-    overflow: hidden;
+  padding: 80px 0px;
+  overflow: hidden;
 }
 
 .aboutTitle {
-    text-align: center;
+  text-align: center;
 }
 
 .aboutTitle h2 {
-    font-size: 40px;
-    font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .aboutTitle p {
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 10px 0px;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0px;
 }
 section.aboutArea {
-    padding: 80px 0px;
-    overflow: hidden;
+  padding: 80px 0px;
+  overflow: hidden;
 }
 
 .aboutTitle h2 {
-    font-size: 40px;
-    font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .aboutTitle p {
-    color: red;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    width: 200px;
-    margin: auto;
+  color: red;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  width: 200px;
+  margin: auto;
 }
 
 .aboutTitle p::before {
-    content: '';
-    width: 44px;
-    height: 3px;
-    background: #000;
-    position: absolute;
-    top: 14px;
-    left: 0px;
+  content: "";
+  width: 44px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: 14px;
+  left: 0px;
 }
 
 .aboutTitle p::after {
-    content: '';
-    width: 44px;
-    height: 3px;
-    background: #000;
-    position: absolute;
-    top: 14px;
-    right: 0px;
+  content: "";
+  width: 44px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: 14px;
+  right: 0px;
 }
 .aboutImg {
-    width: 100%;
-    float: left;
-    height: 350px;
+  width: 100%;
+  float: left;
+  height: 350px;
 }
 
 .aboutContentTitle {
-    margin-top: 32px;
-    margin-left: 40px;
+  margin-top: 32px;
+  margin-left: 40px;
 }
 
 .aboutImg img {
-    width: 100%;
-    border-radius: 10px;
-    height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
 }
 
 .aboutContent {
-    margin-top: 45px;
-    overflow: hidden;
+  margin-top: 45px;
+  overflow: hidden;
 }
 
 .aboutContentTitle h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
+  font-size: 28px;
+  margin-bottom: 15px;
 }
 .aboutContentTitle h2 span {
-    color: red;
+  color: red;
 }
 
 .aboutContentTitle p {
-    text-align: justify;
-    font-size: 16px;
-    color: #000000eb;
+  text-align: justify;
+  font-size: 16px;
+  color: #000000eb;
 }
 
 .aboutContentTitle button {
-    margin-top: 22px;
-    background: #ff0000c7;
-    font-size: 20px;
-    color: #fff;
-    font-weight: 500;
-    padding: 10px 30px;
-    border-radius: 6px;
-    cursor: pointer;
-    border: 2px solid #ff0000c7;
-    transition: .8s;
+  margin-top: 22px;
+  background: #ff0000c7;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid #ff0000c7;
+  transition: 0.8s;
 }
-.aboutContentTitle button:hover{
-    background: none;
-    color: #000;
+.aboutContentTitle button:hover {
+  background: none;
+  color: #000;
 }
 
 section.serviceArea {
-    background: #000;
-    overflow: hidden;
-    color: #fff;
-    padding: 80px 0px;
+  background: #000;
+  overflow: hidden;
+  color: #fff;
+  padding: 80px 0px;
 }
 
 .serviceTitle {
-    text-align: center;
-    padding: 20px 0px;
-    margin-bottom: 20px;
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 20px;
 }
 .serviceTitle h2 {
-    font-size: 40px;
-    font-family: 'Ubuntu';
-    font-weight: 600;
+  font-size: 40px;
+  font-family: "Ubuntu";
+  font-weight: 600;
 }
 .serviceTitle p {
-    color: red;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    position: relative;
-    width: 200px;
-    margin: auto;
+  color: red;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  width: 200px;
+  margin: auto;
 }
 .serviceTitle p::before {
-    content: '';
-    width: 35px;
-    height: 3px;
-    background: #fff;
-    position: absolute;
-    top: 14px;
-    left: -16px;
+  content: "";
+  width: 35px;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  top: 14px;
+  left: -16px;
 }
 
 .serviceTitle p::after {
-    content: '';
-    width: 35px;
-    height: 3px;
-    background: #fff;
-    position: absolute;
-    top: 14px;
-    right: -10px;
+  content: "";
+  width: 35px;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  top: 14px;
+  right: -10px;
 }
 
 .serviceContainer .ServiceBox {
-    background: #222;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    text-align: center;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .8s;
+  background: #222;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.8s;
 }
-.serviceContainer .ServiceBox:last-child{
-    margin-right: 0px;
+.serviceContainer .ServiceBox:last-child {
+  margin-right: 0px;
 }
 .serviceContainer .ServiceBox i {
-    color: red;
-    font-size: 50px;
-    padding: 30px 0px;
-    transition: 0.8s ease;
+  color: red;
+  font-size: 50px;
+  padding: 30px 0px;
+  transition: 0.8s ease;
 }
 
 .serviceContainer .ServiceBox h2 {
-    font-size: 29px;
-    font-weight: 600;
-    margin-bottom: 10px;
+  font-size: 29px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .serviceContainer .ServiceBox p {
-    font-size: 15px;
-    text-align: center;
-    color: #ffffffdb;
-    padding-bottom: 45px;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffffdb;
+  padding-bottom: 45px;
 }
-.serviceContainer .ServiceBox:hover{
-    background: #ff0000c7;
-    transform: scale(1.05);
+.serviceContainer .ServiceBox:hover {
+  background: #ff0000c7;
+  transform: scale(1.05);
 }
-.serviceContainer .ServiceBox:hover i{
-    color:#fff;
-}
-
-.skillArea{
-    padding:80px 0px;
-    overflow: hidden;
-}
-.skillTitle{
-    text-align: center;
+.serviceContainer .ServiceBox:hover i {
+  color: #fff;
 }
 
+.skillArea {
+  padding: 80px 0px;
+  overflow: hidden;
+}
+.skillTitle {
+  text-align: center;
+}
 
 .skillTitle h2 {
-    font-size: 40px;
-    font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .skillTitle p {
-    color: #ff0000c7;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    width: 200px;
-    margin: auto;
+  color: #ff0000c7;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  width: 200px;
+  margin: auto;
 }
 .skillTitle p::before {
-    content: '';
-    width: 35px;
-    height: 3px;
-    background: #000;
-    position: absolute;
-    top: 14px;
-    left: -2px;
+  content: "";
+  width: 35px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: 14px;
+  left: -2px;
 }
 
 .skillTitle p::after {
-    content: '';
-    width: 35px;
-    height: 3px;
-    background: #000;
-    position: absolute;
-    top: 14px;
-    right: -2px;
+  content: "";
+  width: 35px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: 14px;
+  right: -2px;
 }
-.skillContent{
-    margin-top: 50px;
-    overflow: hidden;
+.skillContent {
+  margin-top: 50px;
+  overflow: hidden;
 }
-.skillContentTitle h2{
-    font-size: 24px;
-    color: #ff0000c7;
+.skillContentTitle h2 {
+  font-size: 24px;
+  color: #ff0000c7;
 }
-.skillContentTitle p{
-    text-align: justify;
-    font-size: 16px;
-    margin-top: 10px;
+.skillContentTitle p {
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 10px;
 }
-.skillContentTitle button{
-    background:#ff0000c7;
-    border: 2px solid #ff0000c7;
-    font-size: 20px;
-    padding: 10px 20px;
-    font-family: 'Ubuntu';
-    margin-top: 20px;
-    border-radius: 6px;
-    color: #fff;
-    font-weight: 500;
-    cursor: pointer;
-    transition: .8s;
+.skillContentTitle button {
+  background: #ff0000c7;
+  border: 2px solid #ff0000c7;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-family: "Ubuntu";
+  margin-top: 20px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.8s;
 }
-.skillContentTitle button:hover{
-    background:none;
-    color: #000;
+.skillContentTitle button:hover {
+  background: none;
+  color: #000;
 }
 .skillBar {
-    width: 100%;
-    margin-left: 10px;
+  width: 100%;
+  margin-left: 10px;
 }
 .skillBarLine {
-    margin-bottom: 13px;
-    position: relative;
+  margin-bottom: 13px;
+  position: relative;
 }
 
 .skillBarLine h2 {
-    font-size: 18px;
-    margin-bottom: 8px;
-    font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: 500;
 }
 
 .skillBarLine .topLine {
-    background: #ff0000c7;
-    height: 5px;
+  background: #ff0000c7;
+  height: 5px;
 }
 
 .skillBarLine .bottomLine {
-    width: 100%;
-    background: #ddd;
-    height: 5px;
-    position: relative;
+  width: 100%;
+  background: #ddd;
+  height: 5px;
+  position: relative;
 }
 .skillBarLine span {
-    position: absolute;
-    right: 0px;
-    font-size: 18px;
-    font-weight: 600;
-    top: 0px;
+  position: absolute;
+  right: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  top: 0px;
 }
-.topLineJS{
-    width: 80% !important;
+.topLineJS {
+  width: 80% !important;
 }
-.topLineReact{
-    width: 60% !important;
+.topLineReact {
+  width: 60% !important;
 }
-.topLineNodeJS{
-    width: 40% !important;
+.topLineNodeJS {
+  width: 40% !important;
 }
 
 /*team Area style*/
-.teamArea{
-    color: #fff;
-    padding: 80px 0px;
-    overflow: hidden;
+.teamArea {
+  color: #fff;
+  padding: 80px 0px;
+  overflow: hidden;
 }
 .teamTitle {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .teamTitle h2 {
-    font-size: 40px;
-    font-weight: bold;
-    color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
 }
 
 .teamTitle p {
-    color: red;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    width: 200px;
-    margin: auto;
+  color: red;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  width: 200px;
+  margin: auto;
 }
 
 .teamTitle p::before {
-    content: '';
-    width: 44px;
-    height: 3px;
-    background: #000;
-    position: absolute;
-    top: 14px;
-    left: -20px;
+  content: "";
+  width: 44px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: 14px;
+  left: -20px;
 }
 
 .teamTitle p::after {
-    content: '';
-    width: 44px;
-    height: 3px;
-    background: #000;
-    position: absolute;
-    top: 14px;
-    right: -20px;
+  content: "";
+  width: 44px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: 14px;
+  right: -20px;
 }
 
 .teamBox {
-    height: 350px;
-    border-radius: 6px;
-    margin-right: 30px;
-    box-sizing: border-box;
-    padding: 30px 20px;
-    background: #222;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.7s ease;
+  height: 350px;
+  border-radius: 6px;
+  margin-right: 30px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  background: #222;
+  text-align: center;
+  transition: all 0.7s ease;
 }
-.teamBox:last-child{
-    margin-right: 0px;
+.teamBox:last-child {
+  margin-right: 0px;
 }
-.teamBox:hover{
-    background: #ff0000c7;
-    transform: scale(1.05);
+.teamBox:hover {
+  background: #ff0000c7;
+  transform: scale(1.05);
 }
-.teamBox:hover img{
-    border: 5px solid #fff;
+.teamBox:hover img {
+  border: 5px solid #fff;
 }
 .teamBox img {
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    border: 5px solid #ff0000c7;
-    transition: all 0.7s ease;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  border: 5px solid #ff0000c7;
+  transition: all 0.7s ease;
 }
 
 .teamBox h2 {
-    margin: 10px 0px;
-    font-size: 26px;
+  margin: 10px 0px;
+  font-size: 26px;
 }
 
 .teamBox p {
-    font-size: 16px;
-    font-family: 'Ubuntu';
+  font-size: 16px;
+  font-family: "Ubuntu";
 }
 
-
-
-.contactArea{
-    padding: 80px 0px;
-    overflow: hidden;
+.contactArea {
+  padding: 80px 0px;
+  overflow: hidden;
+  background-color: #ddd;
 }
 .contactTitle {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .contactTitle h2 {
-    font-size: 40px;
-    font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .contactTitle p {
-    color: red;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    width: 200px;
-    margin: auto;
+  color: red;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  width: 200px;
+  margin: auto;
 }
 
 .contactTitle p::before {
-    content: '';
-    width: 44px;
-    height: 3px;
-    background: #000;
-    position: absolute;
-    top: 14px;
-    left: -20px;
+  content: "";
+  width: 44px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: 14px;
+  left: -20px;
 }
 
 .contactTitle p::after {
-    content: '';
-    width: 44px;
-    height: 3px;
-    background: #000;
-    position: absolute;
-    top: 14px;
-    right: -20px;
+  content: "";
+  width: 44px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: 14px;
+  right: -20px;
 }
 
-.contactContent{
-    margin-top: 50px;
-    overflow: hidden;
+.contactContent {
+  margin-top: 50px;
+  overflow: hidden;
 }
 
 .contactInfom h2 {
-    margin-bottom: 15px;
-    color: #ff0000c7;
-    font-weight: 600;
+  margin-bottom: 15px;
+  color: #ff0000c7;
+  font-weight: 600;
 }
 .contactInfom p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .contactInfom .name {
-    margin-top: 20px;
-    font-size: 19px;
-    font-weight: 500;
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: 500;
 }
 .contactInfom .name i {
-    width: 7%;
-    float: left;
-    color: #ff0000c7;
-    margin-top: 0px;
-    font-size: 25px;
+  width: 7%;
+  float: left;
+  color: #ff0000c7;
+  margin-top: 0px;
+  font-size: 25px;
 }
 
 .contactInfom .name p {
-    width: 93%;
-    float: left;
+  width: 93%;
+  float: left;
 }
 .contactInfom .address {
-    margin-top: 60px;
-    font-size: 19px;
-    font-weight: 500;
+  margin-top: 60px;
+  font-size: 19px;
+  font-weight: 500;
 }
 .contactInfom .address i {
-    width: 7%;
-    float: left;
-    color: #ff0000c7;
-    margin-top: 4px;
-    font-size: 25px;
+  width: 7%;
+  float: left;
+  color: #ff0000c7;
+  margin-top: 4px;
+  font-size: 25px;
 }
 
 .contactInfom .address p {
-    width: 93%;
-    float: left;
+  width: 93%;
+  float: left;
 }
 .contactInfom .email {
-    margin-top: 96px;
-    font-size: 19px;
-    font-weight: 500;
+  margin-top: 96px;
+  font-size: 19px;
+  font-weight: 500;
 }
 .contactInfom .email i {
-    width: 7%;
-    float: left;
-    color: #ff0000c7;
-    margin-top: 4px;
-    font-size: 25px;
+  width: 7%;
+  float: left;
+  color: #ff0000c7;
+  margin-top: 4px;
+  font-size: 25px;
 }
 
 .contactInfom .email p {
-    width: 93%;
-    float: left;
+  width: 93%;
+  float: left;
 }
 
 .contactInfom {
-    overflow: hidden;
+  overflow: hidden;
 }
 .fromTitle {
-    margin-bottom: 20px;
-    color: #ff0000c7;
-    font-weight: 600;
+  margin-bottom: 20px;
+  color: #ff0000c7;
+  font-weight: 600;
 }
 
 .contactForm input.name {
-    width: 290px;
-    padding: 7px 8px;
-    margin-right: 10px;
-    font-size: 17px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 15px;
+  width: 290px;
+  padding: 7px 8px;
+  margin-right: 10px;
+  font-size: 17px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
 }
 .contactForm input.email {
-    width: 290px;
-    padding: 7px 8px;
-    font-size: 17px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 15px;
+  width: 290px;
+  padding: 7px 8px;
+  font-size: 17px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
 }
 .contactForm input.subject {
-    width: 100%;
-    padding: 7px 8px;
-    font-size: 17px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 15px;
+  width: 100%;
+  padding: 7px 8px;
+  font-size: 17px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
 }
 .contactForm input.message {
-    width: 100%;
-    padding: 7px 8px;
-    font-size: 17px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-bottom: 15px;
-    padding-bottom: 60px;
+  width: 100%;
+  padding: 7px 8px;
+  font-size: 17px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding-bottom: 60px;
 }
-input:focus{
-    outline:none;
+input:focus {
+  outline: none;
 }
 input.btn {
-    border: 2px solid #ff0000c7;
-    background: #ff0000c7;
-    color: #fff;
-    font-size: 18px;
-    font-family: 'Ubuntu';
-    padding: 10px 15px;
-    border-radius: 6px;
-    font-weight: 500;
-    cursor: pointer;
-    transition:0.8s;
+  border: 2px solid #ff0000c7;
+  background: #ff0000c7;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Ubuntu";
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.8s;
 }
-input.btn:hover{
-    background: none;
-    color: #000;
+input.btn:hover {
+  background: none;
+  color: #000;
 }
 
 .topIcon {
-    width: 43px;
-    height: 43px;
-    background: red;
-    border-radius: 20px;
-    position: fixed;
-    right: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 70px;
+  width: 43px;
+  height: 43px;
+  background: red;
+  border-radius: 20px;
+  position: fixed;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 70px;
 
-    display: none;
+  display: none;
 }
-.topIcon a{
-    color: #000;
-    font-size: 29px;
-    font-weight: bold;
+.topIcon a {
+  color: #000;
+  font-size: 29px;
+  font-weight: bold;
 }
-.topIcon:hover a{
-    color: #fff;
-    transition: .9s;
+.topIcon:hover a {
+  color: #fff;
+  transition: 0.9s;
 }
 footer {
-    background: #000;
-    padding: 20px 0px;
+  background: #000;
+  padding: 20px 0px;
 }
 
 footer p {
-    color: #fff;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 footer p span {
-    color: #ff0000c7;
+  color: #ff0000c7;
 }
-
 
 /*  swiper Project Area Style  */
 .Project_area {
-    background: #000;
-    padding: 80px 0px;
+  background: #000;
+  padding: 80px 0px;
 }
 .ProjectTitle h2 {
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
 }
-.ProjectTitle p{
-    color: red;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    text-align: center;
-    width: 200px;
-    margin: auto;
+.ProjectTitle p {
+  color: red;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  width: 200px;
+  margin: auto;
 }
 .ProjectTitle p::before {
-    content: '';
-    width: 44px;
-    height: 3px;
-    background: #fff;
-    position: absolute;
-    top: 14px;
-    left: -35px;
+  content: "";
+  width: 44px;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  top: 14px;
+  left: -35px;
 }
 
 .ProjectTitle p::after {
-    content: '';
-    width: 44px;
-    height: 3px;
-    background: #fff;
-    position: absolute;
-    top: 14px;
-    right: -35px;
+  content: "";
+  width: 44px;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  top: 14px;
+  right: -35px;
 }
-  html,
-  body {
-    position: relative;
-    height: 100%;
-  }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
 
-  body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
 
-  .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 400px;
-    height: 400px;
-  }
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
-.swiper-pagination-bullet{
-    background: #fff;
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-pagination-bullet {
+  background: #fff;
 }
 
 .project {
-    overflow: hidden;
-    margin-bottom: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .project img {
-    width: 100%;
-    height: 350px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    transition: .8s;
+  width: 100%;
+  height: 350px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.8s;
 }
-.project img:hover{
-    transform: scale(1.05);
+.project img:hover {
+  transform: scale(1.05);
 }
 
 .project h2 {
-    color: #bfb3b3;
-    font-size: 18px;
-    width: 250px;
-    float: left;
-    margin-top: 14px;
-    margin-left: 5px;
+  color: #bfb3b3;
+  font-size: 18px;
+  width: 250px;
+  float: left;
+  margin-top: 14px;
+  margin-left: 5px;
 }
 
 .project button {
-    border: 1px solid #b18e8eb8;
-    background: none;
-    border-radius: 20px;
-    margin-top: 8px;
-    width: 115px;
-    float: right;
-    margin-right: 5px;
-    transition: .8s;
+  border: 1px solid #b18e8eb8;
+  background: none;
+  border-radius: 20px;
+  margin-top: 8px;
+  width: 115px;
+  float: right;
+  margin-right: 5px;
+  transition: 0.8s;
 }
-.project button:hover{
-    border: 1px solid #ff0000c7;
+.project button:hover {
+  border: 1px solid #ff0000c7;
 }
-.singelProjectTitle button a{
-    color: #cdc8c8;
-    padding: 4px 2px;
-    font-size: 14px;
-    text-decoration: none;
-    display: block;
+.singelProjectTitle button a {
+  color: #cdc8c8;
+  padding: 4px 2px;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
 }
 .moreProject {
-    margin-top: 40px;
-    text-align: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .moreProject button {
-    background: #ff0000c7;
-    border: 2px solid #ff0000c7;
-    font-family: 'Ubuntu';
-    margin-top: 20px;
-    border-radius: 6px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: .8s;
+  background: #ff0000c7;
+  border: 2px solid #ff0000c7;
+  font-family: "Ubuntu";
+  margin-top: 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.8s;
 }
-.moreProject button a{
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
+.moreProject button a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
 }
-.moreProject button:hover{
-    background: none;
+.moreProject button:hover {
+  background: none;
 }
